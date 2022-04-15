@@ -5,10 +5,11 @@
     animation-fill-mode:both
 }
 
-#themecolors .selector {
+#themecolors .selector, .cursor {
     cursor: pointer;
 }
 
 #themecolors .selector:hover {
     opacity:0.8;
 }
+
