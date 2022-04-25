@@ -6,14 +6,14 @@
                 <h6 class="card-subtitle">Ajustes</h6>
                 <form class="form p-t-20" [formGroup]="perfilForm" (submit)="actualizarPerfil()">
                     <div class="form-group">
-                        <label for="exampleInputuname">User Name</label>
+                        <label for="exampleInputuname">Usuario</label>
                         <div class="input-group">
                             <div class="input-group-addon"><i class="ti-user"></i></div>
                             <input type="text" class="form-control" id="exampleInputuname" placeholder="Usuario" formControlName="nombre" autocomplete="off">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">Email</label>
                         <div class="input-group">
                             <div class="input-group-addon"><i class="ti-email"></i></div>
                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" formControlName="email" autocomplete="off" [readOnly]="usuario.google">
